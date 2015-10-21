@@ -14,7 +14,11 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+// $background-color: #fdfdfd;
+// para bater com a cor de fundo do logo
+// quando tivermos o logo com fundo transparente
+// podemos voltar a cor original
+$background-color: #ffffff;
 $brand-color:      #2a7ae2;
 
 $ruby-color:       #eb5745;

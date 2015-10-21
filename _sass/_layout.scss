@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $ruby-color;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 75px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -12,28 +12,27 @@
 
 .site-title {
     font-size: 26px;
-    line-height: 56px;
+    line-height: 67px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
 }
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 75px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $grey-color;;
         line-height: $base-line-height;
+
+        &:hover {
+          color: $text-color;
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -121,18 +120,14 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+    text-align: right;
 }
 
 @include media-query($on-laptop) {
@@ -140,11 +135,6 @@
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
         width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -180,12 +170,24 @@
 
 .post-meta {
     font-size: $small-font-size;
+}
+
+.post-category {
+    padding: 2px 4px;
+    border: 1px solid $ruby-color-light;
+    color: $ruby-color;
+}
+
+.post-tag {
+    padding: 2px 4px;
+    border: 1px solid $grey-color-light;
     color: $grey-color;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
+    font-weight: bold;
 }
 
 
@@ -199,6 +201,7 @@
 
 .post-title {
     font-size: 42px;
+    font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
 

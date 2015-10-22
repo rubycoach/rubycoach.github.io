@@ -25,7 +25,7 @@ E se você trabalha com variados tipos de projetos e clientes, pode ter um ambie
 
 Por fim, você ganha a liberdade de poder utilizar um sistema operacional e ter o ambiente de desenvolvimento rodando em outro.
 
-{% youtube wGRSyZ8noxU %}
+{% include youtube.html id="wGRSyZ8noxU" %}
 
 Links
 - [VirtualBox](https://www.virtualbox.org/wiki/downloads){:target="_blank"}

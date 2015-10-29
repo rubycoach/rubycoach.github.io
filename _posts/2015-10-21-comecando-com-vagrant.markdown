@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Começando com Vagrant"
+description: "Uma visão geral de como o Vagrant pode ser útil no nosso ambiente de desenvolvimento."
+video: wGRSyZ8noxU
 categories: vídeo
 tags: [básico, ambiente de desenvolvimento]
 ---

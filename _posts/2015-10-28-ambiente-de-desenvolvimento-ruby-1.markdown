@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Ambiente de desenvolvimento Ruby - parte 1"
+description: "Instalando e conhecendo algumas das ferramentas para utilizarmos no nosso ambiente de desenvolvimento."
+video: Zkgm9gGbQjc
 categories: vídeo
 tags: [básico, ambiente de desenvolvimento]
 ---

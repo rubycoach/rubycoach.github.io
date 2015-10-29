@@ -1,0 +1,7 @@
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="{{ site.locale }}">
+
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:type" content="{% if page.video %}video.movie{% elsif page.title %}article{% else %}website{% endif %}">
+<meta property="og:video" content="{% if page.video %}http://youtu.be/{{page.video}}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% endif %}">

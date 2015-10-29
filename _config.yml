@@ -13,6 +13,7 @@ twitter_username: rubycoach
 youtube_username: channel/UCEinXIZkk1flS_bLm504_2A
 github_username:  rubycoach
 timezone: America/Sao_Paulo
+locale: pt_BR
 permalink: none
 
 # Build settings

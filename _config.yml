@@ -8,6 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
   essenciais para o desenvolvimento web.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://rubycoach.com.br" # the base hostname & protocol for your site
+facebook_publisher: rubycoach
+facebook_author: robsonmarquescode
 facebook_username: rubycoach
 twitter_username: rubycoach
 youtube_username: channel/UCEinXIZkk1flS_bLm504_2A

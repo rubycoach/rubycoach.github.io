@@ -95,6 +95,11 @@
     padding: $spacing-unit 0;
 }
 
+
+.site-footer .terms {
+  font-size: 12px;
+}
+
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
@@ -200,13 +205,13 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 32px;
     }
 }
 

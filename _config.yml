@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   com Ruby on Rails e todo o stack de ferramentas
   essenciais para o desenvolvimento web.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rubycoach.com.br" # the base hostname & protocol for your site
+url: "http://www.rubycoach.com.br" # the base hostname & protocol for your site
 facebook_publisher: rubycoach
 facebook_author: robsonmarquescode
 facebook_username: rubycoach

@@ -3,8 +3,9 @@ layout: post
 title: "Começando com Vagrant"
 description: "Uma visão geral de como o Vagrant pode ser útil no nosso ambiente de desenvolvimento."
 thumbnail: /assets/posts/comecando-com-vagrant.png
-categories: vídeo
+categories: video
 tags: [básico, ambiente de desenvolvimento]
+redirect_from: /vídeo/comecando-com-vagrant.html
 ---
 
 ## O que é Vagrant?

@@ -3,8 +3,9 @@ layout: post
 title: "Ambiente de desenvolvimento Ruby - parte 2"
 description: "Configurando o ambiente de desenvolvimento de forma eficiente."
 thumbnail: /assets/posts/ambiente-de-desenvolvimento-ruby-1.png
-categories: vídeo
+categories: video
 tags: [básico, ambiente de desenvolvimento]
+redirect_from: /vídeo/ambiente-de-desenvolvimento-ruby-2.html
 ---
 
 Nossa missão como desenvolvedores é tornar a vida das pessoas mais fácil. Incluindo a nossa.

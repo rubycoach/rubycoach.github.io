@@ -3,8 +3,9 @@ layout: post
 title: "Ambiente de desenvolvimento Ruby - parte 1"
 description: "Conhecendo algumas ferramentas que podemos utilizar no nosso ambiente de desenvolvimento."
 thumbnail: /assets/posts/ambiente-de-desenvolvimento-ruby-1.png
-categories: vídeo
+categories: video
 tags: [básico, ambiente de desenvolvimento]
+redirect_from: /vídeo/ambiente-de-desenvolvimento-ruby-1.html
 ---
 
 Você pode pensar no ambiente de desenvolvimento como a oficina do programador. As ferramentas organizadas nas paredes ou nas estantes, cada uma escolhida a dedo e adaptada para servir como uma luva quem vai ter que lidar com ela todos os dias.

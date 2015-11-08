@@ -1,0 +1,56 @@
+/* 7 passos para aprender a programar */
+#sete-p {
+
+  .cover {
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+
+  .headline {
+    width: 50%;
+    float: left;
+    margin-top: 70px;
+  }
+
+  .headline h1 {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .headline h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .headline h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 70px;
+  }
+
+  .description {
+    clear: both;
+    padding-top: 40px;
+    border-top: 1px solid #eee;
+    margin-bottom: 40px;
+  }
+
+  .btn-ebook {
+    border: solid 2px;
+    border-radius: 7px;;
+    padding: 10px 15px;
+
+    &:hover {
+      background-color: $ruby-color;
+      color: #fff;
+    }
+  }
+
+  .wall {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 15px 25px;
+  }
+
+}

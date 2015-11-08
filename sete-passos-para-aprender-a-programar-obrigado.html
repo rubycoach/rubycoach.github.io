@@ -1,0 +1,41 @@
+---
+layout: promo
+title: 7 passos para aprender a programar em qualquer linguagem - obrigado
+description: "O segredo para dominar de uma vez por todas a linguagem que você tanto deseja."
+thumbnail: /assets/7p-imagem.png
+---
+
+<div id="sete-p">
+
+  <div class="cover">
+    <img src="/assets/7p.png" height="500" alt="Capa do e-book 7 passos">
+  </div>
+
+  <div class="headline">
+    <h1>Parabéns, agora que você baixou o e-book só falta um passo: ler.</h1>
+    <h2>A leitura é bem rápida, então devore ele de uma vez e parta logo para os próximos conteúdos:</h2>
+    <br>
+
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">
+            {% for category in post.categories %}
+              <span class="post-category">{{ category }}</span>
+            {% endfor %}
+
+            {% for tag in post.tags %}
+              <span class="post-tag">{{ tag }}</span>
+            {% endfor %}
+          </span>
+
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
+</div>

@@ -80,14 +80,14 @@
   }
 
   input[type=submit] {
-    color: #eb5745;
-    border: 2px solid #eb5745;
+    color: $blue-color;
+    border: 2px solid $blue-color;
     background: none;
     width: 100px;
 
     &:hover {
       cursor: pointer;
-      background-color: #eb5745;
+      background-color: $blue-color;
       color: #fff;
     }
   }

@@ -54,3 +54,42 @@
   }
 
 }
+
+.sete-passos-form {
+  text-align: center;
+
+  h1 {
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+
+  input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 7px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+
+  p {
+    font-size: 16px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+  }
+
+  input[type=submit] {
+    color: #eb5745;
+    border: 2px solid #eb5745;
+    background: none;
+    width: 100px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #eb5745;
+      color: #fff;
+    }
+  }
+
+}

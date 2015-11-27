@@ -4,7 +4,7 @@ title: RubyCoach - Aprenda a programar em Ruby
 email: robsonmarques@rubycoach.com.br
 description: > # this means to ignore newlines until "baseurl:"
   Aprenda de uma vez por todas a programar em Ruby
-  com Ruby on Rails e todo o stack de ferramentas
+  com Ruby on Rails e toda a stack de ferramentas
   essenciais para o desenvolvimento web.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.rubycoach.com.br" # the base hostname & protocol for your site

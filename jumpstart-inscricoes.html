@@ -8,11 +8,14 @@ brand: logo-jumpstart.png
 
 <div id="plc">
 
-  {% include youtube.html id="ttJnApOQOT0" %}
+  <div class="videos-container">
+    {% include youtube.html id="ttJnApOQOT0" %}
+    {% include youtube.html id="SSObvOUkbf0" %}
+  </div>
 
   <ul class="videos">
-    <li class="active current"><a href="#video-1">1</a></li>
-    <li><a href="#">2</a></li>
+    <li class="active"><a href="#video-1">1</a></li>
+    <li class="active"><a href="#video-2">2</a></li>
     <li><a href="#">3</a></li>
     <li><a href="#">Inscrições em breve</a></li>
   </ul>
@@ -29,5 +32,25 @@ brand: logo-jumpstart.png
 
 <script src="https://apis.google.com/js/platform.js"></script>
 <script>
+  $(function() {
+    var video = window.location.hash;
+
+    if (video) {
+      $('.videos .active [href=' + video + ']').closest('li').addClass('current');
+      $('.videos-container .videowrapper:nth-child(' + video.replace('#video-', '') + ')').show();
+    } else {
+      $('.videos .active:first').addClass('current');
+      $('.videos-container .videowrapper:first').show();
+    }
+
+    $('.videos .active a').on('click', function(event) {
+      var video = $(this).attr('href').replace('#video-', '');
+      $('.videos .active').removeClass('current');
+      $(this).closest('li').addClass('current');
+      $('.videos-container .videowrapper').hide();
+      $('.videos-container .videowrapper:nth-child(' + video + ')').show();
+    });
+  });
+
   fbq('track', 'ViewContent');
 </script>
